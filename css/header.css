@@ -120,6 +120,7 @@
     background-color: white;
     border-style: none;
     cursor: pointer;
+    position: relative;
 }
 .profileButton {
     background-color: white;
@@ -137,4 +138,20 @@
 .profileIcon {
     height: 36px;
     border-radius: 18px;
+}
+
+/*Notification Icon*/
+.bellNotification {
+    position: absolute;
+    top: 0;
+    right: 3px;
+    width: 10px;
+    height: 10px;
+    font-family: Roboto, Arial;
+    font-size: 11px;
+    color: white;
+    background-color: red;
+    border-style: solid;
+    border-color: red;
+    border-radius: 15px;
 }
