@@ -1,0 +1,8 @@
+/*This is the youtube.css file. It contains the style of the website's body*/
+
+body {
+    padding-top: 70px; 
+    padding-left: 90px;
+    margin: 0;
+    height: 1500px;
+}
