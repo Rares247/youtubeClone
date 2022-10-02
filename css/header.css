@@ -9,7 +9,7 @@
     background-color: white;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: rgb(209, 209, 209);
+    border-bottom-color: rgb(223, 223, 223);
     position: fixed;
     top: 0;
     left: 0;
@@ -143,15 +143,17 @@
 /*Notification Icon*/
 .bellNotification {
     position: absolute;
-    top: 0;
-    right: 3px;
+    top: -2px;
+    right: 0;
     width: 10px;
     height: 10px;
     font-family: Roboto, Arial;
     font-size: 11px;
     color: white;
     background-color: red;
-    border-style: solid;
-    border-color: red;
-    border-radius: 15px;
+    border-radius: 20px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
