@@ -52,7 +52,7 @@
     margin-left: 70px;
     margin-right: 35px;
     flex: 1;
-    max-width: 500px;
+    max-width: 650px;
     align-items: center;
 }
 .searchBar {
@@ -112,6 +112,7 @@
     border-style: none;
     position: relative;
     cursor: pointer;
+
 }
 .voiceButton div {
     position: absolute;
@@ -155,17 +156,77 @@
 }
 
 /*Buttons*/
+/*Live Button*/
 .liveButton {
     background-color: white;
     border-style: none;
+    position: relative;
     cursor: pointer;
 }
+.liveButton div {
+    position: absolute;
+    top: 42px;
+    left: -5px;
+    background-color: rgb(184, 184, 184);
+    color: white;
+    font-family: Roboto, Arial;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+}
+.liveButton:hover div {
+    opacity: 1;
+}
+
+/*Notification Button*/
 .bellButton {
     background-color: white;
     border-style: none;
     cursor: pointer;
     position: relative;
 }
+.bellNotification {
+    position: absolute;
+    top: -2px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    font-family: Roboto, Arial;
+    font-size: 11px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.bellText {
+    position: absolute;
+    top: 42px;
+    left: -20px;
+    background-color: rgb(184, 184, 184);
+    color: white;
+    font-family: Roboto, Arial;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+}
+.bellButton:hover .bellText {
+    opacity: 1;
+}
+
+/*Profile Button*/
 .profileButton {
     background-color: white;
     border-style: none;
@@ -184,20 +245,3 @@
     border-radius: 18px;
 }
 
-/*Notification Icon*/
-.bellNotification {
-    position: absolute;
-    top: -2px;
-    right: 0;
-    width: 10px;
-    height: 10px;
-    font-family: Roboto, Arial;
-    font-size: 11px;
-    color: white;
-    background-color: red;
-    border-radius: 20px;
-    padding-top: 2px;
-    padding-bottom: 5px;
-    padding-left: 3px;
-    padding-right: 3px;
-}
