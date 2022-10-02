@@ -7,6 +7,23 @@
     row-gap: 40px;
     z-index: 0;
 }
+@media(max-width: 750px) {
+    .videoGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width: 751px) and (max-width: 1000px) {
+    .videoGrid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media(min-width: 1001px) and (max-width: 1500px) {
+    .videoGrid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
 
 .thumbnailRow {
     position: relative;
