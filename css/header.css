@@ -7,9 +7,6 @@
     justify-content: space-between;
     margin-bottom: 20px;
     background-color: white;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: rgb(223, 223, 223);
     position: fixed;
     top: 0;
     left: 0;
@@ -76,6 +73,7 @@
 .searchButton {
     height: 40px;
     width: 60px;
+    background-color:rgb(245, 245, 245);
     border-style: solid;
     border-width: 1px;
     border-color: #d3d3d3;
@@ -83,6 +81,9 @@
     margin-left: -1px;
     position: relative;
     cursor: pointer;
+}
+.searchButton:hover{
+    background-color:rgb(235, 235, 235);
 }
 .searchButton div {
     position: absolute;
