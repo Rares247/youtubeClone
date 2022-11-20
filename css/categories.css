@@ -1,5 +1,21 @@
 .categories ul {
     display: flex;
-    background-color: green;
-    z-index: 101;
+    position: relative;
+    background-color: white;
+    z-index: 50;
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+.categories ul li{
+    margin: 10px;
+    list-style: none;
+    font-style: Roboto, Arial;
+    font-size: 12;
+    background-color: rgb(238, 238, 238);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
 }
